@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${peacockHero})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/15" />
       </div>
       
       {/* Content */}
