@@ -4,18 +4,18 @@ import { Zap, Shield, Layers, Workflow, Cloud, BarChart } from "lucide-react";
 const features = [
   {
     icon: Zap,
-    title: "Lightning Fast",
-    description: "Optimized performance that keeps your workflow moving at the speed of thought.",
+    title: "Multiple File Formats",
+    description: "MP4, AVI, MOV, MKV, WEBM, WMV, and most other FFmpeg-supported formats.",
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-grade encryption and compliance with international security standards.",
+    title: "Integration Security",
+    description: "In compliance with international security standards, connect with your existing tools and platforms effortlessly.",
   },
   {
     icon: Layers,
-    title: "Seamless Integration",
-    description: "Connect with your existing tools and platforms effortlessly.",
+    title: "Minimum Requirements",
+    description: "FFmpeg must be installed on your system and available in PATH",
   },
   {
     icon: Workflow,
@@ -25,12 +25,12 @@ const features = [
   {
     icon: Cloud,
     title: "Cloud Native",
-    description: "Access your work anywhere, anytime, on any device.",
+    description: "Access your work anywhere, anytime, on any device...supporting python :)",
   },
   {
     icon: BarChart,
     title: "Advanced Analytics",
-    description: "Gain insights with powerful reporting and data visualization tools.",
+    description: "Gain insights from your video files with advanced reporting and metadata visualization.",
   },
 ];
 
@@ -43,7 +43,7 @@ const Features = () => {
             Features That <span className="text-primary">Stand Out</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to transform your business operations
+            Everything you need to transform & enhance your favorite videos
           </p>
         </div>
         

@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">P</span>
+                <span className="text-primary-foreground font-bold text-lg">&#129434;</span>
               </div>
-              <span className="text-lg font-bold text-foreground">Peacock Software</span>
+              <span className="text-lg font-bold text-foreground">Peacock Video Frames Software Analyzer</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering businesses with innovative software solutions since 2024.
@@ -28,18 +28,18 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Pricing
+                <a href="#faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Faq
                 </a>
               </li>
               <li>
-                <a href="#docs" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Documentation
+                <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Contact
                 </a>
               </li>
               <li>
-                <a href="#api" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  API
+                <a href="https://github.com/oterdimanx/video-frames-analyzer-v1" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Github
                 </a>
               </li>
             </ul>
@@ -60,8 +60,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Blog
+                <a href="https://www.olivers-blog.terdiman.fr/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Oliver's Blog
                 </a>
               </li>
               <li>
@@ -77,7 +77,7 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/NanoMeT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -86,7 +86,7 @@ const Footer = () => {
                 <Twitter size={20} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/oterdimanx/video-frames-analyzer-v1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -104,7 +104,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:info@peacocksoftware.com"
+                href="#contact"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
@@ -119,6 +119,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © 2024 Peacock Software. All rights reserved.
           </p>
+{/*
           <div className="flex space-x-6">
             <a href="#privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
@@ -127,6 +128,7 @@ const Footer = () => {
               Terms of Service
             </a>
           </div>
+*/}
         </div>
       </div>
     </footer>

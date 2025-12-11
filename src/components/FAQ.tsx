@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "What is Peacock Software and how does it work?",
-    answer: "Peacock Software is a comprehensive business management platform that streamlines your operations through automation, integration, and analytics. It connects with your existing tools and provides a unified interface to manage all aspects of your business workflow.",
+    question: "What is Peacock Video Software Analyzer and how does it work ?",
+    answer: "Peacock Software is a comprehensive video files management program that split your files into images, gives you insights about the file, allows you to blur some specific zones by batch, and reconstruct a brand new video files out of it. It can connect smoothly with your existing tools and provides a unified interface to manage all aspects of your business workflow.",
   },
   {
-    question: "How much does Peacock Software cost?",
-    answer: "We offer flexible pricing plans to suit businesses of all sizes. Our Starter plan begins at $29/month, Professional at $99/month, and Enterprise with custom pricing. All plans include a 30-day free trial with no credit card required.",
+    question: "How much does the Peacock Video Software Analyzer cost?",
+    answer: "We offer our application for free! You can download and use the Peacock Video Software Analyzer without any cost. We believe in providing powerful tools to everyone, regardless of budget.",
   },
   {
     question: "Can I integrate Peacock Software with my existing tools?",
-    answer: "Absolutely! Peacock Software integrates seamlessly with over 100+ popular business tools including CRM systems, project management platforms, communication tools, and accounting software. Our API also allows for custom integrations.",
+    answer: "Absolutely! Peacock Software integrates seamlessly with any python compatible environment, including CRM systems, project management platforms, communication tools, and accounting software.",
   },
   {
     question: "What kind of support do you offer?",
-    answer: "We provide 24/7 customer support through multiple channels including live chat, email, and phone. All plans include access to our comprehensive documentation, video tutorials, and community forums. Enterprise customers receive dedicated account management and priority support.",
+    answer: "We provide 24/7 customer support through multiple channels including live chat, email, feel free to use our contact form.",
   },
   {
-    question: "Is my data secure with Peacock Software?",
-    answer: "Yes, security is our top priority. We use bank-grade encryption, regular security audits, and comply with international standards including GDPR, SOC 2, and ISO 27001. Your data is backed up daily and stored in secure, redundant data centers.",
+    question: "Is my data secure with Peacock Video Software Analyzer and related products ?",
+    answer: "Yes, security is our top priority. The really secure part is to integrate a standalone program into your workflow without having to deal with an external website that will provide that very same service, grabbing private data from you, your company or your employees along the way. And you don't want that, right ? The Peacock Software runs locally on your machine, ensuring that all your data remains private and secure.",
   },
   {
     question: "Can I cancel my subscription at any time?",
-    answer: "Yes, you can cancel your subscription at any time with no cancellation fees. If you cancel, you'll continue to have access until the end of your billing period. You can also export all your data before canceling.",
+    answer: "Yes, you can cancel your subscription at any time with no cancellation fees. Because there's no subscriptions yet ;)",
   },
   {
     question: "How long does it take to get started?",
-    answer: "Most customers are up and running within minutes. Our intuitive setup wizard guides you through the process, and you can import your existing data easily. For more complex implementations, our support team is available to help with onboarding and training.",
+    answer: "Most customers are up and running within minutes. If the application doesn't start, ensure FFmpeg is installed. For large videos, ensure you have sufficient disk space. Make the VideoFrameAnalyzer executable : chmod +x VideoFrameAnalyzer. Run it. Open your browser : http://localhost:5000 - the app is here :)",
   },
   {
     question: "Do you offer training for new users?",
-    answer: "Yes! We provide comprehensive onboarding resources including live training webinars, on-demand video tutorials, detailed documentation, and interactive guides. Enterprise customers receive personalized training sessions tailored to their team's needs.",
+    answer: "Again, feel free to contact us, we'll be happy to guide you through the setup and answer any questions you may have.",
   },
 ];
 
@@ -50,7 +50,7 @@ const FAQ = () => {
               Frequently Asked <span className="text-primary">Questions</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Everything you need to know about Peacock Software
+              Everything you need to know about The Peacock Software Video Frames Analyzer
             </p>
           </div>
 

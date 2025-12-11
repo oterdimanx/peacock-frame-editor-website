@@ -20,8 +20,9 @@ const Hero = () => {
             Software as <span className="text-primary">Brilliant</span> as Nature
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-            Peacock Software brings vibrant innovation to your business. 
-            Experience the power of intelligent automation and seamless workflows.
+            Peacock Software Video Frames Analyzer brings vibrant innovation to your business. 
+            Yet it's a simple program that will decompose your videos into frames for easy analysis, review, and editing.
+            ...and remove watermarks &#129434;
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="text-lg">
@@ -29,7 +30,7 @@ const Hero = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button size="lg" variant="outline" className="text-lg">
-              Watch Demo
+              <a href="https://github.com/oterdimanx/video-frames-analyzer-v1" title="Peacock Video Frames Analyzer Github Link">Repository</a>
             </Button>
           </div>
         </div>

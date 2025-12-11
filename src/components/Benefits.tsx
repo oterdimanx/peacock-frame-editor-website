@@ -20,7 +20,7 @@ const Benefits = () => {
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
               Join thousands of satisfied customers who have transformed their 
-              business operations with our innovative platform.
+              business operations with our innovative software platform.
             </p>
             <ul className="space-y-4">
               {benefits.map((benefit) => (
